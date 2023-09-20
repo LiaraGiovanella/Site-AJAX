@@ -1,0 +1,194 @@
+body {
+    background-image: linear-gradient(to top, #122241, #b2ecfa, white, white);
+
+    position: relative;
+    height: 100%;
+}
+
+#botao-menu {
+    margin: 0.1rem;
+}
+
+nav {
+    box-shadow: 0px 5px 20px rgb(163, 163, 163);
+}
+
+#rodapé {
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    box-shadow: 0px -5px 20px rgb(145, 145, 145);
+    width: 100%;
+}
+
+
+#conteudo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#texto {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: large;
+    border-left: 2px solid #17a2b8;
+    padding: 10px;
+    color: rgb(80, 80, 80);
+    line-height: 2.2rem;
+
+}
+
+#titulo {
+    font-weight: bolder;
+    color: rgb(87, 87, 87);
+}
+
+#imagem-final {
+    margin-bottom: 20px;
+}
+
+#email {
+    color: white;
+    background-color: #17a2b8;
+    height: 20%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email-texto {
+    width: 50%;
+    text-align: center;
+}
+
+#email-titulo {
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+#email-conteudo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#formulario {
+    width: 50%;
+}
+
+#input-fomrulario {
+    width: 65%;
+}
+
+#hr-email {
+    display: none;
+}
+
+/* Quiz */
+
+main {
+    background-color: rgb(176, 150, 224);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.questoes {
+    border: 1px solid #17a2b8;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 380px;
+    padding: 0px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#num-questao {
+    margin-top: 12px;
+    font-size: large;
+}
+
+#hr-quiz {
+    background-color: #17a2b8;
+}
+
+#pergunta {
+    font-weight: bolder;
+    color: rgb(87, 87, 87);
+    margin-bottom: 3%;
+}
+
+#botao-opcao1,
+#botao-opcao2,
+#botao-opcao3,
+#botao-opcao1-correta {
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: large;
+    font-weight: bold;
+}
+
+@media (max-width:900px) {
+    #texto {
+        width: 90%;
+    }
+
+    #imagem-final {
+        width: 80%;
+    }
+
+    #imagem-meio1 {
+        margin-bottom: 10px;
+    }
+
+    #titulo {
+        font-size: 2rem;
+    }
+
+    #email-titulo {
+        font-size: 2rem;
+        font-weight: lighter;
+    }
+
+    #email-conteudo {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    #email {
+        display: block;
+    }
+
+    #email-texto,
+    #formulario {
+        width: 100%;
+    }
+
+    #input-formulario {
+        width: 100%;
+        text-align: left;
+    }
+
+
+
+    #hr-email {
+        display: block;
+        background-color: white;
+    }
+
+    .questoes {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 380px;
+    }
+
+}

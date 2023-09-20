@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="icon" href="Imagens/logo.png">
+
+
+
+
+</head>
+
+<body>
+
+    <!-- Menu do Site -->
+
+    <nav class="navbar navbar-light bg-light">
+        <a id="logo-menu" class="navbar-brand" href="#" onclick="carregarPagina('home')">
+            <img src="Imagens/logo.png" width="50" alt="Logo">
+        </a>
+
+        <div id="botao-menu" class="nav justify-content-end">
+            <button href="#" onclick="carregarPagina('home')" id="botao-menu" class="btn btn-info"
+                type="submit">Home</button>
+
+            <button href="#" onclick="carregarPagina('historia')" id="botao-menu" class="btn btn-info"
+                type="submit">História</button>
+
+            <button href="#" onclick="carregarPagina('Curiosidades')" id="botao-menu" class="btn btn-info"
+                type="submit">Curiosidade</button>
+
+            <button href="#" onclick="carregarPagina('quiz')" id="botao-menu" class="btn btn-info" type="submit">Quiz
+            </button>
+        </div>
+    </nav>
+
+    <!-- Conteúdo do Site -->
+
+    <div id="paginas">
+        <div id="conteudo">
+
+            <h1 id="titulo">Navegações</h1>
+
+            <p id="texto">O mar é um lugar curioso e desconhecido, onde as mais incríveis criaturas podem ser
+                encontradas e as mais belas
+                paisagens podem ser vistas. Tudo que estudamos e conhecemos hoje dos oceanos teve origem nas navegações,
+                então conhecer
+                um pouco de sua história e curiosidades abrirá nossos olhos para esse mundo tão fantástico.</p>
+
+            <img id="imagem-meio1" src="Imagens/img2.jpg" width="300" alt="Imagem de um farol">
+            <img src="Imagens/img3.jpg" width="300" alt="Imagem da borda de um barco">
+
+            <p id="texto">Todas as informações contidas nesse site foram retiradas do livro “Fundamentos de
+                Oceanografia”, escrito por Tom
+                Garrison.</p>
+
+            <img src="Imagens/img4.png" width="30%" alt="Desenho de um navio" id="imagem-final">
+
+        </div>
+    </div>
+
+    <!-- Caixa de email padrão em toda página -->
+
+    <div id="email" class="">
+
+        <div id="email-texto">
+            <p id="email-titulo">Quer mais conteúdo assim?</p>
+            <p id="email-conteudo">Se inscreva e receba por email!</p>
+        </div>
+        <hr id="hr-email">
+        <div id="formulario">
+            <form>
+                <div class="form-group">
+                    <label for="email">Endereço de email</label>
+                    <input type="email" class="form-control" id="input-formulario" aria-describedby="emailHelp"
+                        placeholder="Seu email">
+
+                </div>
+                <button onclick="enviar()" id="botao-enviar" type="" class="btn btn-dark">Enviar</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Rodapé do Site -->
+
+    <footer>
+
+        <div id="rodapé">
+            <img src="Imagens/logo.png" width="80" alt="Logo">
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
