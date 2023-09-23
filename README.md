@@ -1,2 +1,4 @@
 # Site-AJAX
-Site simples desenvolvido para a falculdade para o estudo do AJAX
+📚 Site desenvolvido para a falculdade para o estudo do AJAX
+
+✨ Veja como ficou: https://liaragiovanella.github.io/Site-AJAX/
